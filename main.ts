@@ -57,9 +57,9 @@ controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
                 ......f1f1f.......
                 ......ff.ff.......
                 `, SpriteKind.guard)
-            pause(1000)
             Guard.setPosition(110, 117)
             Guard2.setPosition(140, 117)
+            pause(1000)
             game.over(true)
         } else {
             story.spriteSayText(Queen, "Umm... I don't think so, try again?")
